@@ -428,7 +428,7 @@ function toStringList(arr) {
  *    ]
  */
 function sortCitiesArray(arr) {
-  return arr.sort((a, b) => a['country'] - b['country']);
+  return arr.sort((a, b) => a.country - b.country);
 }
 
 /**
